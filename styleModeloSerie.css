@@ -8,7 +8,6 @@ body {
     padding: 2% 20%;
     /* Fonte */
     font-family: sans-serif;
-
 }
 
 /* Estilos para o contêiner da imagem */
@@ -35,7 +34,6 @@ body {
     color: #181818; /* Cor do texto */
     border-radius: 5px; /* Borda arredondada */
     text-decoration: none; /* Remoção do sublinhado padrão */
-
     transition: transform 0.3s ease; /* Transição suave */
 }
 
@@ -73,7 +71,6 @@ body {
 .icone {
     width: 35px; /* Largura do ícone */
     height: 44px; /* Altura do ícone */
-
     transition: transform 0.3s ease; /* Transição suave */
 }
 
@@ -116,7 +113,6 @@ body {
     font-size: larger; /* Tamanho da fonte maior */
 }
 
-
 /* Estilos para o texto verde */
 .verde {
     color: green; /* Cor do texto verde */
@@ -142,97 +138,103 @@ body {
     color: #181818; /* Cor do texto */
 }
 
-.perfil-usuario{
+/* Estilos para o perfil do usuário */
+.perfil-usuario {
     background-color: #181818; /* Cor de fundo */
-    border-top: 0.1px solid #303030;
-    border-bottom: 0.1px solid #303030;
-
+    border-top: 0.1px solid #303030; /* Borda superior */
+    border-bottom: 0.1px solid #303030; /* Borda inferior */
     padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
 }
 
-.avaliacaao-usuario{
+/* Estilos para a área de avaliação do usuário */
+.avaliacaao-usuario {
     background-color: #161616; /* Cor de fundo */
-    border-radius: 5px;
-    margin-top: 15px;
-    padding: 10px;
-
+    border-radius: 5px; /* Borda arredondada */
+    margin-top: 15px; /* Margem superior */
+    padding: 10px; /* Espaçamento interno */
     transition: transform 0.3s ease; /* Transição suave */
 }
 
-.avaliacaao-usuario:hover{
-transform: scale(1.03); /* Aumenta a escala do link ao passar o mouse */
+/* Efeito de escala no hover da área de avaliação do usuário */
+.avaliacaao-usuario:hover {
+    transform: scale(1.03); /* Aumenta a escala da área de avaliação ao passar o mouse */
 }
 
-.usuario{
-    display: flex;
-    text-align: center;
-    gap: 5px;
+/* Estilos para o contêiner do usuário */
+.usuario {
+    display: flex; /* Exibição flexível */
+    text-align: center; /* Alinhamento de texto central */
+    gap: 5px; /* Espaçamento entre elementos */
 }
 
-.Avatar_do_Usuário{
-    width: 30px;
+/* Estilos para o avatar do usuário */
+.Avatar_do_Usuario {
+    width: 30px; /* Largura do avatar */
 }
 
-.cometario-usuario{
-    margin-top: 0px;
-    padding: 0px 0px 0px 35px ;
+/* Estilos para o comentário do usuário */
+.cometario-usuario {
+    margin-top: 0px; /* Margem superior */
+    padding: 0px 0px 0px 35px; /* Espaçamento interno */
 }
 
-.gostou{
-    text-align: right; 
-    padding: 0px 15px 0px 0px ;
+/* Estilos para a seção de gostos do usuário */
+.gostou {
+    text-align: right; /* Alinhamento de texto à direita */
+    padding: 0px 15px 0px 0px; /* Espaçamento interno */
 }
 
+/* Estilos para a área de avaliações */
 .avaliacoes {
     background-color: #181818; /* Cor de fundo */
     padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
 }
 
+/* Estilos para o formulário de avaliação */
 #form-avaliacao {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex; /* Exibição flexível */
+    flex-direction: column; /* Direção do flex */
+    align-items: flex-start; /* Alinhamento de itens */
     width: 100%; /* Defina a largura do formulário como 100% */
-    gap: 15px;
+    gap: 15px; /* Espaçamento entre elementos */
 }
 
+/* Estilos para o texto de avaliação */
 #texto-avaliacao {
     width: 100%; /* Defina a largura do textarea como 100% do formulário */
     box-sizing: border-box; /* Mantenha o padding e a borda dentro da largura total */
-    height: 125px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border: 0.1px solid #686767;
-    border-radius: 5px;
+    height: 125px; /* Altura do textarea */
+    margin-bottom: 10px; /* Margem inferior */
+    padding: 20px; /* Espaçamento interno */
+    border: 0.1px solid #686767; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
     background-color: #161616; /* Cor de fundo */
-    color: #ffffff;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    color: #ffffff; /* Cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    font-size: 17px; /* Tamanho da fonte */
 }
 
+/* Estilos para o botão de envio do formulário de avaliação */
 #form-avaliacao button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 10px; /* Margem superior */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
 }
 
-#form-avaliacao button {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
+/* Efeito de hover no botão de envio do formulário de avaliação */
 #form-avaliacao button:hover {
-    background-color: #0056b3;
-    color: #ffffff;
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
 }
 
-.conteudo_serie{
+/* Estilos para o conteúdo da série */
+.conteudo_serie {
     background-color: #181818; /* Cor de fundo */
-    padding: 40px 50px;
-    border-radius: 10px;
+    padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+    border-radius: 10px; /* Borda arredondada */
 }
-
-
