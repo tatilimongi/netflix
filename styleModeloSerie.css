@@ -236,5 +236,5 @@ body {
 .conteudo_serie {
     background-color: #181818; /* Cor de fundo */
     padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
-    border-radius: 10px; /* Borda arredondada */
+    border-radius: 0px 0px 10px 10px; /* Borda arredondada */
 }
