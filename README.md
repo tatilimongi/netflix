@@ -1,6 +1,4 @@
-# ModeloSérie
 
-![ModeloSérie](./assetsModeloSerie/fundo.svg)
 
 ## Descrição
 
