@@ -23,8 +23,8 @@ The project aims to replicate the layout and visual design of the Netflix websit
 
 ## Tools Used
 
-- **Code Editor:** Visual Studio Code
-- **Web Browser:** Google Chrome, Mozilla Firefox
+- **Code Editor:** [Visual Studio Code](https://code.visualstudio.com/)
+- **Web Browser:** [Google Chrome](https://www.google.com/chrome/)
 - **Browser DevTools:** Used for debugging and styling adjustments during development.
 
 ## Additional Notes
