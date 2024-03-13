@@ -11,8 +11,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h2 {
@@ -225,11 +224,10 @@ row__posterLarge:hover {
 .nav {
   position: absolute;
   top: 0;
-  max-width: 1000px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
   text-align: left;
   align-items: center;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
@@ -260,50 +258,64 @@ row__posterLarge:hover {
   position: bottom;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
   padding: 20px;
   margin-top: 50px;
   text-align: left;
-
   color: #969696;
 }
 
 .footer__container {
   display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.svg {
+  height: 20px;
 }
 
 .footer__row {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  flex-direction: row;
 }
 
 .column {
-  padding: 30px;
-  flex: 1;
+  flex-direction: row;
+  column-gap: 70px;
+  padding: 20px 20px 20px 20px;
   list-style-type: none;
+}
+
+.column + .column {
+  margin-left: 30px;
 }
 
 .footer__trademark {
   font-size: 10px;
+  margin-top: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .footer__serviceCode {
-  margin-top: 20px;
   font-size: 13px;
   color: #969696;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   border: #969696 1px solid;
   padding: 8px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: transparent;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .footer__serviceCode:hover {
@@ -314,14 +326,14 @@ row__posterLarge:hover {
 .footer__icons {
   display: flex;
   justify-content: flex-start;
-  height: 30px;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .footer__icons img {
   display: flex;
   flex: 1;
   padding-right: 20px;
-  align-items: flex-start;
 }
 
 .column a {
