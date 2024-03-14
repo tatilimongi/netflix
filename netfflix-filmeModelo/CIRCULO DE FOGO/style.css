@@ -17,7 +17,7 @@ body {
 }
 
 /* Estilos para a imagem do avatar */
-.img_truqueDeMestre {
+.img_circulo_de_fogo {
     width: 100%; /* Largura da imagem */
     height: auto; /* Altura automática, para manter a proporção */
     border-radius: 15px 15px 0px 0px; /* Borda arredondada */
@@ -58,7 +58,7 @@ body {
 }
 
 .img_titulo {
-    height: 150px;
+    height: 170px;
     max-width: 100%;
 }
 
@@ -245,7 +245,7 @@ body {
 }
 
 /* Estilos para o conteúdo da série */
-.conteudo_serie {
+.conteudo_filme {
     background-color: #181818; /* Cor de fundo */
     padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
     border-radius: 0px 0px 10px 10px; /* Borda arredondada */
