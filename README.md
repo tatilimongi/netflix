@@ -30,4 +30,3 @@ The project aims to replicate the layout and visual design of the Netflix websit
 ## Additional Notes
 
 This project serves as a learning exercise and practice opportunity for front-end development skills, particularly in HTML and CSS. It's important to note that this is a static imitation project focused on replicating the visual appearance of the Netflix website and does not include advanced functionalities such as video streaming or user account management.
-
