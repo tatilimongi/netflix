@@ -300,15 +300,10 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
 }
 
-
-
-/* Adicionando uma animação de escala suave quando o usuário passa o mouse sobre o botão */
-button[type="submit"] {
-    transition: transform 0.3s ease-in-out;
-}
-
-button[type="submit"]:hover {
-    transform: scale(1.1);
+/* Efeito de hover no botão de envio do formulário de avaliação */
+.formulario-avaliacao button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
 }
 
 /* Estilos para o conteúdo da série */
