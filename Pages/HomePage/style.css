@@ -109,7 +109,7 @@ row__posterLarge:hover {
 }
 
 .banner {
-  background-image: url("../images/HomePage/Header/SAW.jpeg");
+  background-image: url("../../images/HomePage/Header/SAW.jpeg");
   background-size: cover;
   background-position: center center;
   color: white;
