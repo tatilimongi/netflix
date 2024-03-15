@@ -1,0 +1,354 @@
+/* Estilos para o corpo da página */
+body {
+  /* Fundo da página */
+  /* background-image: url("./assetsModeloSerie/fundo.svg"); */ /* Comentário: Fundo da página - URL da imagem comentado */
+  background-color: #000000; /* Cor de fundo preta */
+  /* Cor do texto */
+  color: #ffffff; /* Cor do texto branca */
+  /* Espaçamento interno */
+  padding: 2% 20%; /* Espaçamento interno de 2% acima e abaixo, 20% nos lados */
+  /* Fonte */
+  font-family: sans-serif; /* Fonte padrão sans-serif */
+  line-height: 1.5; /* Adiciona espaçamento entre as linhas */
+}
+
+/* Estilos para o contêiner da imagem */
+.conteudo-img {
+  /* Posicionamento relativo para permitir mudanças de posição */
+  position: relative; /* Posicionamento relativo */
+}
+
+/* Estilos para a imagem do avatar */
+.img-fundo-serie {
+  display: block; /* Exibição em bloco */
+  width: 100%; /* Largura da imagem de 100% */
+  height: auto; /* Altura automática, para manter a proporção */
+  border-radius: 15px 15px 0px 0px; /* Borda arredondada */
+}
+
+/* Estilos para os links */
+.link {
+  display: flex; /* Exibição flexível */
+  justify-content: center; /* Alinhamento central horizontal */
+  align-items: center; /* Alinhamento central vertical */
+  gap: 15px; /* Espaçamento entre elementos internos */
+  padding: 10px 30px; /* Espaçamento interno */
+  background-color: #ffffff; /* Cor de fundo branca */
+  color: #181818; /* Cor do texto */
+  border-radius: 5px; /* Borda arredondada */
+  text-decoration: none; /* Remoção do sublinhado padrão */
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover dos links */
+.link:hover {
+  transform: scale(1.1); /* Aumenta a escala do link ao passar o mouse */
+}
+
+/* Estilos para o ícone de início */
+.icone-inicio {
+  margin: 25px 30px 0 0; /* Margem superior e direita */
+  position: absolute; /* Posicionamento absoluto */
+  top: 0; /* Alinhamento no topo */
+  right: 0; /* Alinhamento à direita */
+}
+
+/* Estilos para os ícones no meio */
+.icones-meio {
+  margin: 0px 0px 45px 50px; /* Margem inferior e esquerda */
+  gap: 20px; /* Espaçamento entre ícones */
+  display: flex; /* Exibição flexível */
+  position: absolute; /* Posicionamento absoluto */
+  bottom: 0; /* Alinhamento na parte inferior */
+}
+
+/* Estilos para o ícone no final */
+.icone-fim {
+  margin: 0px 30px 45px 0px; /* Margem inferior e direita */
+  position: absolute; /* Posicionamento absoluto */
+  bottom: 0; /* Alinhamento na parte inferior */
+  right: 0; /* Alinhamento à direita */
+}
+
+/* Estilos para todos os ícones */
+.icone {
+  width: 40px; /* Largura do ícone */
+  height: auto; /* Altura automática */
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover dos ícones */
+.icone:hover {
+  transform: scale(1.1); /* Aumenta a escala do ícone ao passar o mouse */
+}
+
+/* Estilos para o ícone de play */
+.icone-play {
+  width: 30px; /* Largura do ícone de play */
+  height: 30px; /* Altura do ícone de play */
+}
+
+/* Estilos para o modelo de série */
+.modelo-serie {
+  background-color: #181818; /* Cor de fundo */
+  display: grid; /* Exibição em grid */
+  grid-template-columns: 1.5fr 1fr; /* Definição das colunas do grid */
+  gap: 20px; /* Espaçamento entre os itens do grid */
+  margin-bottom: 5px; /* Margem inferior */
+}
+
+.polegar-com-paragrafo {
+  display: flex; /* Exibição flexível */
+  align-items: center; /* Alinha os itens verticalmente */
+  gap: 5px; /* Espaçamento entre elementos */
+}
+
+.icone-polegar {
+  width: 15px; /* Largura do ícone */
+  height: auto; /* Altura automática */
+  padding: 5px 5px; /* Espaçamento interno */
+  margin: 0; /* Margem zero */
+  background-color: #ff0000; /* Cor de fundo vermelha */
+}
+
+/* Estilos para o conteúdo */
+.conteudo1 {
+  padding: 20px 0px 50px 50px; /* Espaçamento interno */
+  display: flex; /* Exibição flexível */
+  flex-direction: column; /* Alinha os itens em coluna */
+  gap: 10px; /* Espaçamento entre elementos */
+}
+
+.conteudo2 {
+  padding: 20px 50px 50px 10px; /* Espaçamento interno */
+  display: flex; /* Exibição flexível */
+  flex-direction: column; /* Alinha os itens em coluna */
+  gap: 10px; /* Espaçamento entre elementos */
+}
+
+.conteudo1 div p {
+  margin: 8px 0px; /* Margem superior e inferior */
+}
+
+.conteudo2 div p {
+  margin: 7px 0px; /* Margem superior e inferior */
+}
+
+/* Estilos para elementos fortes */
+.conteudo-destaque {
+  font-size: x-large; /* Tamanho da fonte grande */
+}
+
+/* Estilos para o texto verde */
+.span-verde {
+  color: rgb(147, 255, 147); /* Cor do texto verde */
+  font-weight: bold; /* Aplicar negrito */
+}
+
+/* Estilos para o texto cinza */
+.span-texto-cinza {
+  color: #949494; /* Cor do texto cinza */
+}
+
+/* Estilos para texto em itálico */
+.span-italico {
+  border: solid 0.9px #ffffff; /* Borda com cor sólida e largura */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 1px 5px; /* Espaçamento interno */
+  font-size: 12px; /* Tamanho da fonte */
+}
+
+.classificacao {
+  display: flex; /* Exibição flexível */
+  gap: 5px; /* Espaçamento entre elementos */
+}
+
+.classificacao {
+  display: flex; /* Exibição flexível */
+  gap: 5px; /* Espaçamento entre elementos */
+}
+
+/* Estilos para a classe A12 */
+.span-A12 {
+  background-color: yellow; /* Cor de fundo amarela */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 5px; /* Espaçamento interno */
+  font-size: large; /* Tamanho da fonte grande */
+  font-style: unset; /* Estilo de fonte não definido */
+  color: #181818; /* Cor do texto */
+  letter-spacing: -2px; /* Adiciona um espaçamento negativo à esquerda */
+}
+
+/* Estilos para a classe A14 */
+.span-A14 {
+  background-color: #bf7c00; /* Cor de fundo amarela */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 5px 5px; /* Espaçamento interno */
+  font-size: large; /* Tamanho da fonte grande */
+  font-style: unset; /* Estilo de fonte não definido */
+  color: #ffffff; /* Cor do texto */
+  letter-spacing: -2px; /* Adiciona um espaçamento negativo à esquerda */
+}
+
+/* Estilos para a classe A16 */
+.span-A16 {
+  background-color: #ff0000; /* Cor de fundo vermelha */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 5px; /* Espaçamento interno */
+  font-size: large; /* Tamanho da fonte grande */
+  font-style: unset; /* Estilo de fonte não definido */
+  color: #ffffff; /* Cor do texto */
+}
+
+/* Estilos para a classe A18 */
+.span-A18 {
+  background-color: #000000; /* Cor de fundo preta */
+  border-radius: 5px; /* Borda arredondada */
+  padding: 5px; /* Espaçamento interno */
+  font-size: large; /* Tamanho da fonte grande */
+  font-style: unset; /* Estilo de fonte não definido */
+  color: #ffffff; /* Cor do texto */
+}
+
+/* Estilos para o perfil do usuário */
+.perfil-usuario {
+  background-color: #181818; /* Cor de fundo */
+  border-top: 0.1px solid #303030; /* Borda superior */
+  border-bottom: 0.1px solid #303030; /* Borda inferior */
+  padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+}
+
+/* Estilos para a área de avaliação do usuário */
+.avaliacao-usuario {
+  background-color: #161616; /* Cor de fundo */
+  border-radius: 5px; /* Borda arredondada */
+  margin-top: 15px; /* Margem superior */
+  padding: 10px; /* Espaçamento interno */
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover da área de avaliação do usuário */
+.avaliacao-usuario:hover {
+  transform: scale(
+    1.03
+  ); /* Aumenta a escala da área de avaliação ao passar o mouse */
+}
+
+/* Estilos para o contêiner do usuário */
+.usuario {
+  display: flex; /* Exibição flexível */
+  text-align: center; /* Alinhamento de texto central */
+  gap: 5px; /* Espaçamento entre elementos */
+}
+
+/* Estilos para o avatar do usuário */
+.icone-usuario {
+  width: 30px; /* Largura do avatar */
+}
+
+/* Estilos para o comentário do usuário */
+.comentario-usuario {
+  margin-top: 0px; /* Margem superior */
+  padding: 0px 0px 0px 35px; /* Espaçamento interno */
+}
+
+/* Estilos para a seção de gostos do usuário */
+.gostos-usuario {
+  text-align: right; /* Alinhamento de texto à direita */
+  padding: 0px 15px 0px 0px; /* Espaçamento interno */
+}
+
+/* Estilos para a área de avaliações */
+.formulario-avaliacao {
+  background-color: #181818; /* Cor de fundo */
+  padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+}
+
+/* Estilos para o formulário de avaliação */
+#form-avaliacao {
+  display: flex; /* Exibição flexível */
+  flex-direction: column; /* Direção do flex */
+  align-items: flex-start; /* Alinhamento de itens */
+  width: 100%; /* Defina a largura do formulário como 100% */
+  gap: 15px; /* Espaçamento entre elementos */
+}
+
+/* Estilos para o texto de avaliação */
+#texto-avaliacao {
+  width: 100%; /* Defina a largura do textarea como 100% do formulário */
+  box-sizing: border-box; /* Mantenha o padding e a borda dentro da largura total */
+  height: 125px; /* Altura do textarea */
+  margin-bottom: 10px; /* Margem inferior */
+  padding: 20px; /* Espaçamento interno */
+  border: 0.1px solid #686767; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: #161616; /* Cor de fundo */
+  color: #ffffff; /* Cor do texto */
+  font-family: Arial, Helvetica, sans-serif; /* Fonte */
+  font-size: 17px; /* Tamanho da fonte */
+}
+
+/* Estilos para o botão de envio do formulário de avaliação */
+.formulario-avaliacao button {
+  margin-top: 10px; /* Margem superior */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #ffffff; /* Cor de fundo */
+  color: #000000; /* Cor do texto */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor ao passar por cima */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover no botão de envio do formulário de avaliação */
+.formulario-avaliacao button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+  color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para o conteúdo da série */
+.informacoes-serie {
+  background-color: #181818; /* Cor de fundo */
+  padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+  border-radius: 0px 0px 10px 10px; /* Borda arredondada */
+  line-height: 1.3; /* Adiciona espaçamento entre as linhas */
+}
+
+.informacoes-serie div p {
+  margin: 10px 0px; /* Margem superior e inferior */
+}
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+  body {
+    padding: 2% 1%; /* Espaçamento interno em telas menores */
+  }
+}
+
+/* Para telas entre 600px e 799px */
+@media (min-width: 600px) and (max-width: 799px) {
+  body {
+    padding: 2% 2%; /* Espaçamento interno em telas de 600px a 799px */
+  }
+}
+
+/* Para telas entre 800px e 1199px */
+@media (min-width: 800px) and (max-width: 1199px) {
+  body {
+    padding: 2% 10%; /* Espaçamento interno em telas de 800px a 1199px */
+  }
+}
+
+/* Para telas entre 1200px e 1599px */
+@media (min-width: 1200px) and (max-width: 1599px) {
+  body {
+    padding: 2% 15%; /* Espaçamento interno em telas de 1200px a 1599px */
+  }
+}
+
+/* Para telas maiores ou iguais a 1600px */
+@media (min-width: 1600px) {
+  body {
+    padding: 2% 25%; /* Espaçamento interno em telas maiores ou iguais a 1600px */
+  }
+}
