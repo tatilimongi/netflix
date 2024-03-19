@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #111;
   color: white;
   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
@@ -15,7 +15,6 @@
   padding: 30px;
   text-align: left;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .nav__logo {
@@ -63,7 +62,7 @@
   height: 10px;
 }
 
-h1{
+h1 {
   padding-top: 70px;
   padding-left: 10px;
 }
