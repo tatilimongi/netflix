@@ -70,7 +70,7 @@ h2 {
   font-size: 275px;
   line-height: 0;
   color: black;
-  -webkit-text-stroke: 3px rgb(160, 160, 160);
+  -webkit-text-stroke: 4px rgb(102, 102, 102);
   text-shadow: 0 0 30px black;
 }
 
