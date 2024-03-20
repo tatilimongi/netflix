@@ -108,24 +108,49 @@ row__posterLarge:hover {
   margin-left: 20px;
 }
 
+/*--> HEADER <--*/
+#background-video {
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 60rem;
+}
+
+.bg-overlay {
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  height: 60rem;
+  background: rgb(17, 17, 17);
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 1) 0%,
+    rgba(17, 17, 17, 0) 15%
+  ) !important;
+}
+
 .banner {
-  background-image: url("../../images/HomePage/Header/SAW.jpeg");
-  background-size: cover;
-  background-position: center center;
-  color: white;
-  object-fit: contain;
-  height: 448px;
+  height: 50rem;
 }
 
 .banner__contents {
   margin-left: 30px;
-  padding-top: 140px;
+  padding-top: 240px;
   height: 190px;
 }
 
 .banner__title {
-  font-size: 3rem;
-  font-weight: 800;
+  height: 20rem;
   padding-bottom: 0.3rem;
 }
 
@@ -137,6 +162,7 @@ row__posterLarge:hover {
   font-weight: 500;
   max-width: 560px;
   padding-bottom: 30px;
+  color: #fff;
 }
 
 .banner__button {
@@ -186,17 +212,7 @@ row__posterLarge:hover {
   height: 10px;
 }
 
-.banner--fadeBottom {
-  margin-top: 145px;
-  height: 7.4rem;
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
-}
-
+/*--> NAV <--*/
 .nav__logo {
   width: 80px;
   object-fit: contain;
