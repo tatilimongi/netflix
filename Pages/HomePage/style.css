@@ -106,11 +106,24 @@ row__posterLarge:hover {
 .row {
   color: white;
   margin-left: 20px;
+  z-index: 1;
 }
 
 /*--> HEADER <--*/
 #background-video {
-  width: 100vw;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  height: 60rem;
+}
+
+.bg-overlay {
+  width: 100%;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -118,18 +131,6 @@ row__posterLarge:hover {
   top: 0;
   bottom: 0;
   z-index: -1;
-  height: 60rem;
-}
-
-.bg-overlay {
-  width: 100vw;
-  object-fit: cover;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
   height: 60rem;
   background: rgb(17, 17, 17);
   background: linear-gradient(
@@ -147,6 +148,7 @@ row__posterLarge:hover {
   margin-left: 30px;
   padding-top: 240px;
   height: 190px;
+  z-index: 1;
 }
 
 .banner__title {
@@ -245,6 +247,7 @@ row__posterLarge:hover {
   padding: 30px;
   text-align: left;
   align-items: center;
+  z-index: 2;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
