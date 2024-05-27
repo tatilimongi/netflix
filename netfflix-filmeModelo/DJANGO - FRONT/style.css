@@ -1,0 +1,252 @@
+/* Estilos para o corpo da página */
+body {
+    /* Fundo da página */
+    background-image: url("./assetsModeloFilme/tela_inicial_netflix.png");
+    /* Cor do texto */
+    color: #ffffff;
+    /* Espaçamento interno */
+    padding: 2% 20%;
+    /* Fonte */
+    font-family: sans-serif;
+}
+
+/* Estilos para o contêiner da imagem */
+.conteudo_img {
+    /* Posicionamento relativo para permitir mudanças de posição */
+    position: relative;
+}
+
+/* Estilos para a imagem do avatar */
+.img_django {
+    width: 100%; /* Largura da imagem */
+    height: auto; /* Altura automática, para manter a proporção */
+    border-radius: 15px 15px 0px 0px; /* Borda arredondada */
+}
+
+/* Estilos para os links */
+.link {
+    display: flex; /* Exibição flexível */
+    justify-content: center; /* Alinhamento central horizontal */
+    align-items: center; /* Alinhamento central vertical */
+    gap: 15px; /* Espaçamento entre elementos internos */
+    padding: 5px 15px; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #181818; /* Cor do texto */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remoção do sublinhado padrão */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover dos links */
+.link:hover {
+    transform: scale(1.1); /* Aumenta a escala do link ao passar o mouse */
+}
+
+/* Estilos para o ícone de início */
+.icone_inicio {
+    margin: 25px 30px 0 0; /* Margem superior e direita */
+    position: absolute; /* Posicionamento absoluto */
+    top: 0; /* Alinhamento no topo */
+    right: 0; /* Alinhamento à direita */
+}
+
+.titulo {
+    position: absolute;
+    margin: 0px 0px 100px 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.img_titulo {
+    height: 170px;
+    max-width: 100%;
+}
+
+/* Estilos para os ícones no meio */
+.icones_meio {
+    margin: 0px 0px 30px 60px; /* Margem inferior e esquerda */
+    gap: 20px; /* Espaçamento entre ícones */
+    display: flex; /* Exibição flexível */
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 0; /* Alinhamento na parte inferior */
+}
+
+/* Estilos para o ícone no final */
+.icone_fim {
+    margin: 0px 30px 25px 0px; /* Margem inferior e direita */
+    position: absolute; /* Posicionamento absoluto */
+    bottom: 0; /* Alinhamento na parte inferior */
+    right: 0; /* Alinhamento à direita */
+}
+
+/* Estilos para todos os ícones */
+.icone {
+    width: 35px; /* Largura do ícone */
+    height: 44px; /* Altura do ícone */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover dos ícones */
+.icone:hover {
+    transform: scale(1.1); /* Aumenta a escala do ícone ao passar o mouse */
+}
+
+/* Estilos para o ícone de play */
+.icone_play {
+    width: 30px; /* Largura do ícone de play */
+    height: 30px; /* Altura do ícone de play */
+}
+
+/* Estilos para o modelo de série */
+.ModeloFilme {
+    background-color: #181818; /* Cor de fundo */
+    display: grid; /* Exibição em grid */
+    grid-template-columns: 1.5fr 1fr; /* Definição das colunas do grid */
+    gap: 20px; /* Espaçamento entre os itens do grid */
+    margin-bottom: 5px;
+}
+
+/* Estilos para o conteúdo */
+.conteudo {
+    padding: 50px; /* Espaçamento interno */
+}
+
+/* Estilos para elementos fortes */
+.conteudo_destaque {
+    font-size: x-large; /* Tamanho da fonte grande */
+}
+
+/* Estilos para o texto de violência */
+.recomendado {
+    font-size: larger; /* Tamanho da fonte maior */
+}
+
+.nome_avatar  {
+    font-size: larger; /* Tamanho da fonte maior */
+}
+
+/* Estilos para o texto verde */
+.verde {
+    color: green; /* Cor do texto verde */
+}
+
+/* Estilos para o texto cinza */
+.texto_cinza {
+    color: #626262; /* Cor do texto cinza */
+}
+
+/* Estilos para texto em itálico */
+.italico {
+    border: solid 0.9px #ffffff; /* Borda com cor sólida e largura */
+    font-style: italic; /* Fonte em itálico */
+    padding: 3px 3px; /* Espaçamento interno */
+}
+
+/* Estilos para a classe A12 */
+.A16 {
+    background-color: red; /* Cor de fundo amarela */
+    padding: 3px; /* Espaçamento interno */
+    font-size: large; /* Tamanho da fonte grande */
+    color: #181818; /* Cor do texto */
+}
+
+/* Estilos para o perfil do usuário */
+.perfil-usuario {
+    background-color: #181818; /* Cor de fundo */
+    border-top: 0.1px solid #303030; /* Borda superior */
+    border-bottom: 0.1px solid #303030; /* Borda inferior */
+    padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+}
+
+/* Estilos para a área de avaliação do usuário */
+.avaliacaao-usuario {
+    background-color: #161616; /* Cor de fundo */
+    border-radius: 5px; /* Borda arredondada */
+    margin-top: 15px; /* Margem superior */
+    padding: 10px; /* Espaçamento interno */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de escala no hover da área de avaliação do usuário */
+.avaliacaao-usuario:hover {
+    transform: scale(1.03); /* Aumenta a escala da área de avaliação ao passar o mouse */
+}
+
+/* Estilos para o contêiner do usuário */
+.usuario {
+    display: flex; /* Exibição flexível */
+    text-align: center; /* Alinhamento de texto central */
+    gap: 5px; /* Espaçamento entre elementos */
+}
+
+/* Estilos para o avatar do usuário */
+.Avatar_do_Usuario {
+    width: 30px; /* Largura do avatar */
+}
+
+/* Estilos para o comentário do usuário */
+.cometario-usuario {
+    margin-top: 0px; /* Margem superior */
+    padding: 0px 0px 0px 35px; /* Espaçamento interno */
+}
+
+/* Estilos para a seção de gostos do usuário */
+.gostou {
+    text-align: right; /* Alinhamento de texto à direita */
+    padding: 0px 15px 0px 0px; /* Espaçamento interno */
+}
+
+/* Estilos para a área de avaliações */
+.avaliacoes {
+    background-color: #181818; /* Cor de fundo */
+    padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+}
+
+/* Estilos para o formulário de avaliação */
+#form-avaliacao {
+    display: flex; /* Exibição flexível */
+    flex-direction: column; /* Direção do flex */
+    align-items: flex-start; /* Alinhamento de itens */
+    width: 100%; /* Defina a largura do formulário como 100% */
+    gap: 15px; /* Espaçamento entre elementos */
+}
+
+/* Estilos para o texto de avaliação */
+#texto-avaliacao {
+    width: 100%; /* Defina a largura do textarea como 100% do formulário */
+    box-sizing: border-box; /* Mantenha o padding e a borda dentro da largura total */
+    height: 125px; /* Altura do textarea */
+    margin-bottom: 10px; /* Margem inferior */
+    padding: 20px; /* Espaçamento interno */
+    border: 0.1px solid #686767; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #161616; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte */
+    font-size: 17px; /* Tamanho da fonte */
+}
+
+/* Estilos para o botão de envio do formulário de avaliação */
+#form-avaliacao button {
+    margin-top: 10px; /* Margem superior */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover no botão de envio do formulário de avaliação */
+#form-avaliacao button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para o conteúdo da série */
+.conteudo_filme {
+    background-color: #181818; /* Cor de fundo */
+    padding: 40px 50px; /* Adicione um espaçamento interno equilibrado */
+    border-radius: 0px 0px 10px 10px; /* Borda arredondada */
+}
